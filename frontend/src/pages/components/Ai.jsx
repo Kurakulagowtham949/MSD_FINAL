@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import { Zap, Info, ShoppingCart, Minus, Plus } from "lucide-react";
 
-const getApiBase = () => import.meta.env.VITE_API_BASE || "https://product-recomendation-system.onrender.com";
+const getApiBase = () => import.meta.env.VITE_API_BASE || "https://msd-final-backend-sh7l.onrender.com";
 const API_BASE = getApiBase();
 
 export default function AIRecommendations() {
