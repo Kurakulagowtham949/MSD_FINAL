@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useMemo, useState, useRef 
 import axios from 'axios';
 
 const CartContext = createContext(null);
-const API_BASE = import.meta.env.VITE_API_BASE || 'https://product-recomendation-system.onrender.com';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://msd-final-backend-sh7l.onrender.com';
 
 export function CartProvider({ children }) {
   const [items, setItems] = useState(() => {
