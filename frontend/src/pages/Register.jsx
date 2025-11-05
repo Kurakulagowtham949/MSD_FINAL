@@ -25,7 +25,7 @@ function Register() {
 
     try {
       const res = await axios.post(
-        "https://product-recomendation-system.onrender.com/api/auth/register",
+        "https://msd-final-backend-sh7l.onrender.com/api/auth/register",
         { name, email, password, role: isRetailer ? 'retailer' : 'buyer' },
         { headers: { "Content-Type": "application/json" } }
       );
