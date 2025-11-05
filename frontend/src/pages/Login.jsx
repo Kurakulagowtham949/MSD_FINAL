@@ -23,7 +23,7 @@ function Login() {
     setLoading(true);
 
     try {
-      const res = await axios.post('https://product-recomendation-system.onrender.com/api/auth/login', {
+      const res = await axios.post('https://msd-final-backend-sh7l.onrender.com/api/auth/login', {
         email,
         password,
       });
